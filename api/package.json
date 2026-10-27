@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "Read-only API for Ishe Shalton Milubi's portfolio",
+  "private": true,
+  "main": "src/server.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "pg": "^8.13.1"
+  }
+}
